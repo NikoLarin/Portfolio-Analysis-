@@ -18,7 +18,6 @@ max_drawdown = round(get_max_drawdown(balance_data),2)
 print(f'Reporting Period        :   {reporting_period}\n'
       f'Portfolio Value         :   ${portfolio_value}\n'
       f'Your P&L is             :   ${profit_loss[0]} | {profit_loss[1]}%\n'
-      #f'All time trading volume :   ${all_time_transaction_volume}\n'
       f'Sharpe Ratio            :   {portfolio_sharpe}\n'
       f'Dail|Mont|Ann Vol       :   {portfolio_volatility}\n'
       f'Max drawdown            :   {max_drawdown}%'
